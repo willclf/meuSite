@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <title>Meu site</title>
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <div class="logo">
+                <a href="#home"><span class="logo-w">W.</span>Wilson</a>
+            </div>
+            <div class="navegacao">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre mim</a></li>
+                        <li><a href="#portifolio">Portifólio</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                    <span id="hamburger"></span>
+                </button>
+            </div>
+            
+            <div class="icon-rs">
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/willclf"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+            
+        </header>
+        
+        <section class="container" id="home">
+            <div class="texto-principal">
+                <h2>Olá! Eu sou um</h2>
+                <h1></h1>
+                <p>Meu nome é <span>Wilson Souza</span>, seja muito bem vindo(a)!</p>
+                <button class="btn-main">Entre em contato!</button>
+            </div>
+
+            <div class="imagem-principal">
+                <img src="./img/pc.png" alt="imagemPrincipal">
+            </div>
+        </section>
+    </main>
+    <section id="sobre">
+        <div class="curve"></div>
+        <div class="titulo-tecnologias">
+            <h2>Tecnologias que domino</h2>
+        </div>
+        <div class="container-tecnologias">
+            <div class="tecnologias">
+                <img src="./img/htmlcss.png" alt="html-css" style="width: 150px; margin-bottom: 45px;">
+                <h2>
+                    HTML e CSS
+                </h2>
+                <p>
+                    Linguagem de marcação e folha de estilo, base para criação de qualquer site.
+                </p>
+            </div>
+
+            <div class="tecnologias">
+                <img src="./img/js.png" alt="javascript">
+                <h2>Javascript</h2>
+                <p>Linguagem mais utilizada, pode desenvolver diversos tipos de aplicações.</p>
+            </div>
+
+            <div class="tecnologias">
+                <img src="./img/react.png" alt="">
+                <h2>React</h2>
+                <p>Bibliotéca Javascript com foco em criar interfaces de usuário em páginas web.</p>
+            </div>
+
+            <div class="tecnologias tailwind">
+                <img src="./img/pngwing.com.png" alt="">
+                <h2>Tailwind</h2>
+                <p>Framework CSS que acelera o desenvolvimento e trás facilidades para manuntenções futuras</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portifolio" id="portifolio">
+        <div>
+            <h2>Portifólio</h2>
+        </div>
+        <div class="container-portifolio">
+            <div class="portifolio-banner">
+                <p>Projeto em andamento</p>
+            </div>
+            <div class="portifolio-banner">
+                <p>Projeto em andamento</p>
+            </div>
+            <div class="portifolio-banner">
+                <p>Projeto em andamento</p>
+            </div>
+            <div class="portifolio-banner">
+                <p>Projeto em andamento</p>
+            </div>
+            <div class="portifolio-banner">
+                <p>Projeto em andamento</p>
+            </div>
+            <div class="portifolio-banner">
+                <p>Projeto em andamento</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <section class="dados-contato">
+           <h2>Contatos</h2> 
+           <h3>Email:</h3>
+           <p>contatowilson@gmail.com</p>
+           <h3>Telefone</h3>
+           <p>(48)98828-0682</p>
+           <div>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/willclf"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+        </section>
+        <aside>
+            <form action="">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="msg">Mensagem:</label>
+                <textarea name="msg" id="msg" cols="30" rows="6"></textarea>
+                <input type="submit" id="btn">
+            </form>
+        </aside>
+    </footer>
+        <div class="direitos">
+            <h2>Todos os direitos reservados a Wilson Souza</h2>
+        </div>
+    <script src="./script.js"></script>
+</body>
+</html>
